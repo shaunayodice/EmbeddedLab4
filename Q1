@@ -1,1 +1,24 @@
+#include <msp430.h>
+
+int main(void)
+{
+    WDTCTL = WDT_ADLY_250;    // WDT 250ms
+
+
+       P6OUT &= ~BIT6; //clears P6 Bit6
+       P6DIR |= BIT6;  //classifies P6 Bit6 as an output 
+       
+
+    PM5CTL0 &= ~LOCKLPM5;
+    SFRIE1 |= WDTIE;
+    _enable_interrupts();
+
+    while (1);
+    }
+    #pragma vector=WDT_VECTOR
+    __interrupt void wdtled(void)
+    {
+          P6OUT^=BIT6;
+       
+    }
 
