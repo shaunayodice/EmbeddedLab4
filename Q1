@@ -10,7 +10,7 @@ int main(void)
        
 
     PM5CTL0 &= ~LOCKLPM5;
-    SFRIE1 |= WDTIE;
+    SFRIE1 |= WDTIE; //enables interrupt
     _enable_interrupts();
 
     while (1);
@@ -18,7 +18,7 @@ int main(void)
     #pragma vector=WDT_VECTOR
     __interrupt void wdtled(void)
     {
-          P6OUT^=BIT6;
+          P6OUT^=BIT6; //XOR bitwise operator to toggle P6.6
        
     }
 
