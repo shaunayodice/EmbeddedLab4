@@ -18,6 +18,7 @@ The image below shows the hand calculations that were used to find the duty cycl
 The image below is the signal from the oscilloscope. In the image, the frequency is shown to match the calculated frequency.
 
 **Oscilloscope Reading**
+
 ![image](https://user-images.githubusercontent.com/98931471/200151590-2a5a245b-2b1d-46ed-860b-4768dc889c9e.png)
 
 
@@ -35,6 +36,7 @@ A) The image below shows the hand calculations used to find the duty cycle, peri
 The image below depicts the singal generation on the oscilloscope. Here the frequency measured was X.
 
 **Oscilloscope Image**
+
 ![image](https://user-images.githubusercontent.com/98931471/200151601-c0e14307-012a-4390-aa55-00ff32991f19.png)
 
 
