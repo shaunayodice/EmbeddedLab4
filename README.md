@@ -14,7 +14,10 @@ A) Below is the table that compares the calculated and the measured values for a
 
 The image below shows the hand calculations that were used to find the duty cycle, period, and frequency. 
 
-**insert image of hand calculations**
+**Hand Calculations to Find CCR1 and CCR0**
+
+![image](https://user-images.githubusercontent.com/98931471/200186722-8c4178e3-88bb-411a-9256-f60c0c523520.png)
+
 
 The image below is the signal from the oscilloscope. In the image, the frequency is shown to match the calculated frequency.
 
