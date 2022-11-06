@@ -34,7 +34,7 @@ A) The image below shows the hand calculations used to find the duty cycle, peri
 
 **insert image of hand calculations**
 
-The image below depicts the signal generation on the oscilloscope. Here the duty cycle matched the 10% were were looking to achieve.
+The image below depicts the signal generation on the oscilloscope. Here the duty cycle matched the 20% were were looking to achieve.
 
 **Oscilloscope Image**
 
