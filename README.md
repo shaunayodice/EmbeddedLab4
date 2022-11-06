@@ -8,18 +8,21 @@ In Question 1, the code shown allows for the ability to toggle a Green LED found
 
 Question 2:
 
-A) Below is the table that compares the calculated and the measured values for a PWM signal with 10% duty cycle. 
+A) Below is the table that compares the calculated and the measured values for a PWM signal with 10% duty cycle. As the table shows, the calculated and measured values match almost indentical. The duty cycle and the period were provided in the question, but we were able to generate the PWM to have a duty cycle at exactly 10%. 
 
-**insert table**
+**Table of Measured VS. Calculated Results**
 
-The image below shows the hand calculations that were used to find the duty cycle, period, and frequency. 
+![image](https://user-images.githubusercontent.com/98931471/200187166-5b34c9f5-a9cb-4189-bb9b-0faf932bbeb0.png)
+
+
+The image below shows the hand calculations that were used to find the duty cycle, period, and frequency. The period of the signal was provided in the question as well as the duty cycle. Using the given information, we wee able to find the value for both CCR0 and CCR1 as shown in the image below. 
 
 **Hand Calculations to Find CCR1 and CCR0**
 
-![image](https://user-images.githubusercontent.com/98931471/200186722-8c4178e3-88bb-411a-9256-f60c0c523520.png)
+![image](https://user-images.githubusercontent.com/98931471/200186997-743eb2c5-161e-45ad-91fc-4f5345dd111f.png)
 
 
-The image below is the signal from the oscilloscope. In the image, the frequency is shown to match the calculated frequency.
+The image below is the signal from the oscilloscope. In the image, the duty cycle is shown to match the calculated duty cycle. The period shown from the generated signal is at 500.6 ms which was very close to the desired 500 ms period found in the hand calculations. 
 
 **Oscilloscope Reading**
 
@@ -33,20 +36,26 @@ C) The code for this portion of the lab can be found in the file named, "Q2"
 Question 3:
 
 
-A) The image below shows the hand calculations used to find the duty cycle, period, and frequency of the PWM. 
+A) The image below shows the hand calculations used to find the duty cycle, period, and frequency of the PWM. The duty cycle and the period were provided in the question. Using this information, we found the CCR 0 and CCR 1 freqency values using the formula shown in the image below. 
 
-**insert image of hand calculations**
+**Hand Calculations to find CCR0 and CCR1**
 
-The image below depicts the signal generation on the oscilloscope. Here the duty cycle matched the 20% were were looking to achieve.
+![image](https://user-images.githubusercontent.com/98931471/200186985-f4456710-33a0-4f71-8fe6-db83a6244b01.png)
+
+
+The image below depicts the signal generation on the oscilloscope. Here the duty cycle matched the 20% were were looking to achieve. The period was 250.3 ms which also matched the desired period of 250 ms.
 
 **Oscilloscope Image**
 
 ![image](https://user-images.githubusercontent.com/98931471/200151601-c0e14307-012a-4390-aa55-00ff32991f19.png)
 
 
-B) The table below compares the hand calculation values to the values measured on the oscilloscope.
+B) The table below compares the hand calculation values to the values measured on the oscilloscope. The values found in the hand calculations matched the values collected from the generated PWM signal using the oscilloscope.
 
-**insert table**
+**Table of Measured VS. Calculated results**
+
+![image](https://user-images.githubusercontent.com/98931471/200187208-104719a4-b0dc-4f88-9b02-0e2113cd8568.png)
+
 
 C) The code for this question can be found inside the file labeled, "Q3"
 
