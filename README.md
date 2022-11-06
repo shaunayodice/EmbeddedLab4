@@ -31,6 +31,8 @@ The image below is the signal from the oscilloscope. In the image, the duty cycl
 
 B) UML Diagram
 
+![image](https://user-images.githubusercontent.com/93303476/200198812-e1b56e36-2967-4a26-84a0-435d4d34aa59.png)
+
 C) The code for this portion of the lab can be found in the file named, "Q2"
 
 Question 3:
