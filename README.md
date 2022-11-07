@@ -1,12 +1,16 @@
 # Embedded Lab 4
 
+# Overview
 
-Question 1:
+This lab disccusses the process of using the clock of the microcontroller to generate a PWM signal. Polling was implemented in the code used to execute this on the MSP430 Microcontroller board.
+
+
+# Question 1:
 
 In Question 1, the code shown allows for the ability to toggle a Green LED found on the MSP430FR2355 microcontroller. To do so, timer interupt processes will be used. On the MSP430FR2355, the green LED is found on port "P6.6". This means that P6.6 will be an output for the code. A specific timer be chosen in order to be able to have the green LED toggle at 250ms. The timer used for this application will be the auxiliary timer of 250ms represneted by the macro named "WDT_ADLY_250" in the provided code used. In order to enable to interrupt capability, SFRIE1 |= WDTIE will be used as it will use the bitwise or operator in order to turn on the interupt. The LED will then be able to oscillate by using the bitwise XOR operator for the output P6 Bit6 by using the code P6OUT^=BIT6. 
 
 
-Question 2:
+# Question 2:
 
 A) Below is the table that compares the calculated and the measured values for a PWM signal with 10% duty cycle. As the table shows, the calculated and measured values match almost indentical. The duty cycle and the period were provided in the question, but we were able to generate the PWM to have a duty cycle at exactly 10%. 
 
@@ -35,7 +39,7 @@ B) UML Diagram
 
 C) The code for this portion of the lab can be found in the file named, "Q2"
 
-Question 3:
+# Question 3:
 
 
 A) The image below shows the hand calculations used to find the duty cycle, period, and frequency of the PWM. The duty cycle and the period were provided in the question. Using this information, we found the CCR 0 and CCR 1 freqency values using the formula shown in the image below. 
